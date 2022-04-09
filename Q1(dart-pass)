@@ -1,0 +1,9 @@
+main() {
+const hour = DateTime.now().hour;
+print(hour);
+}
+
+/*
+You cant use (const) because the time changes continuously.
+And we can replace it with (var) .
+*/
