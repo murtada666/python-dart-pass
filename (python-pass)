@@ -1,0 +1,11 @@
+def check():
+    x = int(input("How many numbers are we doing? "))
+    newlist = []
+    if x > 0 and x <= 10:
+      for i in range (x):
+        newlist.append(int(input("Input a number: ")))#adding numbers to the list
+
+      for i in newlist:
+        print(f"{i} is {'odd' if i%2 else 'even'}")
+#main fuction
+check()
